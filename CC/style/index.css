@@ -1,0 +1,90 @@
+body {
+	margin: 0px;
+	font-size: 62.5%;
+}
+#banner {
+	width: 100%;
+	height: 160px;
+}
+#header {
+	background-color: black;
+	width: 100%;
+	height: 36px;
+}
+#word {
+	position: relative;
+	top: 6px;
+	left: 5px;
+	font-size: 16px;
+	color: yellow;
+}
+#lr {
+	background-color: black;
+	margin: 0px;
+	width: 100%;
+	height: 36px;
+}
+#login {
+	display: inline-block;
+	margin-left: 80%;
+	margin-top: 12px;
+	font-size: 16px;
+	color: orange;
+	font-weight: bold;
+}
+#register {
+	display: inline-block;
+	margin-left: 2%;
+	margin-top: 12px;
+	font-size: 16px;
+	color: orange;
+	font-weight: bold;
+}
+#navigation {
+	margin-top: 10px;
+	margin-left: 30%;
+	margin-right: 2%;
+	height: 45px;
+	background-color: #ADFF2F;
+}
+.item {
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 20px;
+	color: black;
+	font-size: 25px;
+}
+.itemMove {
+	text-decoration: underline;
+	display: inline-block;
+	margin: 10px 20px;
+	color: red;
+	font-size: 25px;
+}
+#sidebar {
+	display: inline-block;
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 250px;
+	height: 600px;
+}
+#middle {
+	display: inline-block;
+	float: right;
+	margin-right: 5%;
+	margin-top: 2%;
+	width: 60%;
+	height: 1024px;
+	background-color: #eeeeee;
+}
+.music {
+	display: block;
+	width: 300px;
+	background-color: yellow;
+}
+#footer {
+	visibility: hidden;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}

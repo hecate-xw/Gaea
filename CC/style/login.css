@@ -1,0 +1,35 @@
+#welcome
+{
+	height: 30px;
+	width: 98%;
+	margin: auto;
+	margin-bottom: 10px;
+	color: green;
+	background-color: #cfd453;
+	text-align: center;
+	font-family: »ªÎÄÐÂÎº serif;
+	font-size: 25px;
+}
+#form
+{
+	margin: auto;
+	width: 350px;
+	background: pink;
+	padding-top: 10px;
+	padding-left: 40px;
+	text-color: black;
+}
+#submit {
+	margin-left: 100px;
+}
+#reset {
+	margin-left: 50px;
+}
+#date
+{
+	color: red;
+	margin-left: 45%;
+}
+#table
+{
+}

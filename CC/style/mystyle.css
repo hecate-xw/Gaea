@@ -1,0 +1,84 @@
+/*
+万能选择器
+*{
+	margin: -10px 2px 3px 4px;
+	/* 上 右 下 左 */
+	border: 4px dashed #0000ff;
+	padding: 40px 40px 40px 40px;
+	/* or */
+	padding: 40px;
+	/* 同margin */
+}
+*/
+ul
+{
+	color: red;
+}
+table
+{
+	margin: auto;
+	width: 200px;
+	border: dotted;
+}
+a:link
+
+{
+    
+	text-decoration: line-through;
+
+	color: #008b45;
+
+}
+/*伪类选择器*/
+a:hover 
+{
+
+	color: #000000;
+
+	font-weight: bold;
+	text-decoration: none;
+
+}
+a:visted
+
+{
+
+    color: #ee9a00;
+
+}
+li:first-child
+{
+	font-family: 华文新魏;
+}
+li:nth-child(2)
+{
+	font-family: 华文行楷;
+}
+div
+{
+	border-radius: 5px;
+	float: right;
+	/*浮动*/	
+}
+p
+{
+	float: left;
+}
+/* classes标签 */
+.red
+{
+	color: red;
+}
+/* ids标签 */
+#rogue
+{
+	color: #FF00FF;
+
+	font-weight: bold;
+
+	font-family: cursive;
+}
+#footer
+{
+    clear: /*right, left, or both*/
+}

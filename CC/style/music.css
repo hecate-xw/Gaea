@@ -1,0 +1,56 @@
+body
+{
+	background-color: #ffffff;
+}
+div
+{
+	border-radius: 5px;
+}
+#header
+{
+	position: relative;
+	z-index: 1;
+	position: fixed;
+	margin-top: -10px;
+	width: 98%;
+	height: 50px;
+	background-color: #668284;
+}
+#navigate
+{
+	left: 50%;
+	display: inline;
+	font-size: 45px;
+	font-family: Verdana;
+	color: red;
+}
+ul
+{
+
+	list-style-type: none;
+
+	position: fixed;
+
+	margin: -10px;
+
+}
+
+
+li
+{
+
+	/*Add your CSS here!*/
+
+    	display: inline;
+
+	border: 2px solid #000000;
+
+	font-family: Futura, Tahoma, sans-serif;
+
+	color: #ffffff;
+
+	border-radius: 5px 5px;
+
+	background-color: #cc0323
+
+}

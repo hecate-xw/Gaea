@@ -1,0 +1,18 @@
+table
+{
+	margin: auto;
+	border: 1px dotted green;
+	align: center;
+}
+th
+{
+	padding: 6px;
+	font-size: 20px;
+	font-family: »ªÎÄÐÂÎº;
+	color: red;
+}
+td
+{
+	text-align: center;
+	font-size: 16px;
+}

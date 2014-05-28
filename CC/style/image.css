@@ -1,0 +1,31 @@
+body {
+	backgroundcolor: #ccc;
+	color: #333;
+	margin: 1em 10%
+}
+h1 {
+	background-color: transparent;
+}
+a {
+	color: #c60;
+	background-color: transparent;
+	font-weight: bold;
+}
+ul {
+	padding: 0;
+}
+li {
+	float: left;
+	padding: 1em;
+	list-style: none;
+}
+img {
+	width: 90%;
+	height: 500px;
+	display:block;
+	clear: both;
+}
+.noscript {
+	font-size: 36px;
+	color: red;
+}
