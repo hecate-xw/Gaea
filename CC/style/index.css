@@ -54,37 +54,47 @@ body {
 	color: black;
 	font-size: 25px;
 }
-.itemMove {
-	text-decoration: underline;
-	display: inline-block;
-	margin: 10px 20px;
-	color: red;
-	font-size: 25px;
-}
 #sidebar {
 	display: inline-block;
-	margin-left: 2%;
+	margin-left: 1%;
 	margin-top: 2%;
-	width: 250px;
-	height: 600px;
+	background-color: #FFE4E1;
+	width: 400px;
+	height: 1024px;
+}
+#sidebar p {
+	margin-top: 2px;
+	margin-left: 4px;
+	font-size: 20px;
+	color: #000080;
 }
 #middle {
 	display: inline-block;
 	float: right;
-	margin-right: 5%;
+	margin-right: 2%;
 	margin-top: 2%;
-	width: 60%;
+	width: 64%;
 	height: 1024px;
 	background-color: #eeeeee;
 }
-.music {
-	display: block;
-	width: 300px;
-	background-color: yellow;
+article {
+	padding-left: 2%;
+}
+article header {
+	font-size: 36px;
+	font-weight: bold;
+	font-family: monospace;
+}
+article .author {
+	color: orange;
+}
+article .content {
+	font-size: 16px;
+	color: #9acd32;
 }
 #footer {
-	visibility: hidden;
+	visibility: visible;
 	width: 100%;
 	height: 50px;
-	background-color: black;
+	background-color: #191970;
 }
